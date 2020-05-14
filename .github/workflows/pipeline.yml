@@ -10,7 +10,7 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     env:
-      IMAGE_NAME: docker.pkg.github.com/${{ github.repository }}/app1
+      IMAGE_NAME: docker.pkg.github.com/${{ github.repository }}/app
       IMAGE_TAG: ${{ github.sha }}
 
     steps:
