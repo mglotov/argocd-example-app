@@ -1,4 +1,4 @@
-FROM golang:1.13-alpine3.10 AS build
+FROM public.ecr.aws/docker/library/golang:1.17.6-alpine3.15 AS build
 
 WORKDIR /go/src/app
 COPY main.go main.go
